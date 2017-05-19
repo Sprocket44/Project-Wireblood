@@ -74,11 +74,11 @@ public class RBCharacterController : MonoBehaviour {
 		}
 
 		// Forward backward movement isn't possible while skiing and only minor left right course corrections can be made 
-		if (isSkiing) {
+		if (!grounded) {
 			Vector3 ForwardBack = Camera.main.transform.forward * Input.GetAxis("Vertical"); 
 			Vector3 LeftRight = (Quaternion.AngleAxis (90, Vector3.up) * Camera.main.transform.forward * Input.GetAxis("Horizontal"));
 			Vector3 targetVelocity = ForwardBack + LeftRight;
-			GetComponent<Rigidbody>().AddForce(targetVelocity);
+			GetComponent<Rigidbody>().AddForce(targetVelocity * 20);
 		}
 
 		if (isJetPacking) {
@@ -90,7 +90,7 @@ public class RBCharacterController : MonoBehaviour {
 		grounded = false;
 	}
 
-	void move(Vector3 target){
+	public void move(Vector3 target){
 		// Apply a force that attempts to reach our target velocity
 		Vector3 velocity = GetComponent<Rigidbody>().velocity;
 		Vector3 velocityChange = (target - velocity);

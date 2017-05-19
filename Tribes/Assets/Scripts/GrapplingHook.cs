@@ -19,7 +19,7 @@ public class GrapplingHook : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
-		if(Input.GetKeyDown(KeyCode.LeftShift))
+		if(Input.GetKeyDown(KeyCode.LeftShift) && !GameObject.Find ("GrappleGuide(Clone)"))
 		{
 			//Spawn guide at hand 
 			Instantiate(grappleGuidePreFab, grappleOrigin.position, Quaternion.identity);
@@ -28,7 +28,6 @@ public class GrapplingHook : MonoBehaviour {
 			//Fire it away from you
 			grappleGuide.GetComponent<Rigidbody>().AddForce(Camera.main.transform.forward * grappleSpeed);
 			//Detect when it hits the ground 
-
 		}
 			
 		if (GameObject.Find ("GrappleGuide(Clone)")) {
@@ -43,11 +42,11 @@ public class GrapplingHook : MonoBehaviour {
 
 				grappleConnection = GameObject.FindGameObjectWithTag ("Player");
 				grappleConnection.GetComponent<RBCharacterController> ().isGrappling = true; 
-				grapplePoint.GetComponent<ConfigurableJoint> ().connectedBody = grappleConnection.GetComponent<Rigidbody> ();
+				//grapplePoint.GetComponent<ConfigurableJoint> ().connectedBody = grappleConnection.GetComponent<Rigidbody> ();
 			}
 		}
 
-		if (Input.GetKeyUp(KeyCode.LeftShift)) {
+		if (!Input.GetKey(KeyCode.LeftShift)) {
 			print("Release");
 			Destroy (grapplePoint);
 			grappleConnection.GetComponent<RBCharacterController> ().isGrappling = false; 
