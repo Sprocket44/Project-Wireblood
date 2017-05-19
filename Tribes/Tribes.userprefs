@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GrapplingHook.cs">
+    <Files>
+      <File FileName="Assets\Scripts\RBCharacterController.cs" Line="46" Column="29" />
+      <File FileName="Assets\Scripts\GUIManagerScript.cs" Line="4" Column="30" />
+      <File FileName="Assets\Scripts\GrapplingHook.cs" Line="12" Column="18" />
+      <File FileName="Assets\Scripts\CameraFollow.cs" Line="24" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
