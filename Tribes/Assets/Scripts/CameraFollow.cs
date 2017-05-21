@@ -4,7 +4,7 @@ using System.Collections;
 public class CameraFollow : MonoBehaviour {
 
 	public Transform target;
-	public float smoothTime = 10F;
+	public float smoothTime = 0.1F;
 	private Vector3 velocity = Vector3.zero;
 
 	/*void Update () {
@@ -18,6 +18,8 @@ public class CameraFollow : MonoBehaviour {
 		transform.rotation = Quaternion.Slerp (transform.localRotation, targetRotation, Time.deltaTime);
 
 		//Exactly follow position
-		transform.position = target.transform.position + new Vector3(0,2,0); 
+		Vector3 targetLocation = target.position; 
+		transform.position = -Vector3.Lerp (transform.localPosition, target.transform.position + new Vector3(0,2,0), Time.deltaTime * smoothTime); ; 
+		//transform.position = target.transform.position + new Vector3(0,2,0); 
 	}
 }

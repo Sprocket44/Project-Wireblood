@@ -12,10 +12,12 @@ public class RBCharacterController : MonoBehaviour {
 	public float jetPackStr = 5.0f;
 	public bool isGrappling = false; 
 	private bool grounded = false;
-	private bool isSkiing = false;
+	public bool isSkiing = false;
 	private bool isJetPacking = false;
 	private float feulRemaining;
 
+
+	public Animator animator; 
 	public Transform CameraTransform; 
 
 
@@ -24,6 +26,7 @@ public class RBCharacterController : MonoBehaviour {
 		float feulRemaining = 5;
 		//GetComponent<Rigidbody>().freezeRotation = true;
 		GetComponent<Rigidbody>().useGravity = false;
+		animator = GetComponentInChildren<Animator> (); 
 	}
 
 	void Update(){
@@ -49,7 +52,18 @@ public class RBCharacterController : MonoBehaviour {
 			isJetPacking = false; 
 		}
 
+		//Check if on ground 
+		RaycastHit hit; 
+		if (Physics.Raycast (transform.position + new Vector3(0,0.1f,0), -Vector3.up, out hit, 0.3f)) {
+			animator.SetBool("landed", true);
+			animator.SetBool("isInAir",false);
+		} else {
+			animator.SetBool("isInAir",true);
+			animator.SetBool("landed", false);
+		}
+		Debug.DrawRay (transform.position + new Vector3(0,1,0), -Vector3.up * 1.1f);
 
+		animator.SetBool("isSkiing",isSkiing);
 	}
 
 	void FixedUpdate () {
@@ -60,12 +74,21 @@ public class RBCharacterController : MonoBehaviour {
 		if (!isSkiing) {
 
 			// Calculate how fast we should be moving
-			Vector3 ForwardBack = Camera.main.transform.forward * Input.GetAxis("Vertical");
-			Vector3 LeftRight = (Quaternion.AngleAxis (90, Vector3.up) * Camera.main.transform.forward * Input.GetAxis("Horizontal"));
+			Vector3 euler = CameraTransform.rotation.eulerAngles;   //get target's rotation
+			Quaternion CamRot = Quaternion.Euler(0, euler.y,0); //transpose values
+			Vector3 Direction = CamRot * Vector3.forward; 
+			//Vector3 CamRot = new Vector3(Camera.main.transform.forward.x, Camera.main.transform.forward.y, Camera.main.transform.forward.z);
+			Vector3 ForwardBack = Direction * Input.GetAxis("Vertical");
+			Vector3 LeftRight = (Quaternion.AngleAxis (90, Vector3.up) * Direction * Input.GetAxis("Horizontal"));
 			Vector3 targetVelocity = ForwardBack + LeftRight;
 			targetVelocity *= speed;
+			//Debug.DrawRay (CameraTransform.position, Direction);
+			//Debug.DrawRay (CameraTransform.position, targetVelocity);
 
 			move (targetVelocity);
+
+			animator.SetFloat("Speed",Input.GetAxis("Vertical"));
+			print (Input.GetAxis ("Vertical"));
 
 			// Jump
 			if (canJump && Input.GetButton ("Jump")) {
@@ -75,10 +98,18 @@ public class RBCharacterController : MonoBehaviour {
 
 		// Forward backward movement isn't possible while skiing and only minor left right course corrections can be made 
 		if (!grounded) {
-			Vector3 ForwardBack = Camera.main.transform.forward * Input.GetAxis("Vertical"); 
-			Vector3 LeftRight = (Quaternion.AngleAxis (90, Vector3.up) * Camera.main.transform.forward * Input.GetAxis("Horizontal"));
+			Vector3 euler = CameraTransform.rotation.eulerAngles;   //get target's rotation
+			Quaternion CamRot = Quaternion.Euler(0, euler.y,0); //transpose values
+			Vector3 Direction = CamRot * Vector3.forward; 
+			Vector3 ForwardBack = Vector3.zero;
+			if (Input.GetAxis ("Vertical") < 0) {
+				ForwardBack = Direction * Input.GetAxis("Vertical");
+			}
+			Vector3 LeftRight = (Quaternion.AngleAxis (90, Vector3.up) * Direction * Input.GetAxis("Horizontal"));
 			Vector3 targetVelocity = ForwardBack + LeftRight;
-			GetComponent<Rigidbody>().AddForce(targetVelocity * 20);
+			GetComponent<Rigidbody>().AddForce(targetVelocity * 40);
+
+
 		}
 
 		if (isJetPacking) {
@@ -99,9 +130,11 @@ public class RBCharacterController : MonoBehaviour {
 		velocityChange.y = 0;
 		GetComponent<Rigidbody>().AddForce(velocityChange, ForceMode.VelocityChange);
 		//GetComponent<Rigidbody> ().transform.Translate (target.normalized * speed);
+
 	}
 
 	void OnCollisionStay () {
+		animator.SetBool("isInAir",false);
 		grounded = true;    
 	}
 
@@ -110,5 +143,7 @@ public class RBCharacterController : MonoBehaviour {
 		// for the character to reach at the apex.
 		return Mathf.Sqrt(2 * jumpHeight * gravity);
 	}
+
+
 		
 }

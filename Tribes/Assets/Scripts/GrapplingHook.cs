@@ -42,12 +42,12 @@ public class GrapplingHook : MonoBehaviour {
 
 				grappleConnection = GameObject.FindGameObjectWithTag ("Player");
 				grappleConnection.GetComponent<RBCharacterController> ().isGrappling = true; 
-				//grapplePoint.GetComponent<ConfigurableJoint> ().connectedBody = grappleConnection.GetComponent<Rigidbody> ();
+				grapplePoint.GetComponent<ConfigurableJoint> ().connectedBody = grappleConnection.GetComponent<Rigidbody> ();
 			}
 		}
 
 		if (!Input.GetKey(KeyCode.LeftShift)) {
-			print("Release");
+			//print("Release");
 			Destroy (grapplePoint);
 			grappleConnection.GetComponent<RBCharacterController> ().isGrappling = false; 
 		}

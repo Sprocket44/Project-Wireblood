@@ -15,12 +15,13 @@ public class RopeAcceleration : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		//Calculate vector representing tether 
 		Vector3 curString = transform.position - Player.transform.position;  
 		float difference = curString.magnitude - String.magnitude;
 		if (difference < 0) {
 			difference = 0;
 		}
-		playerAccel = difference * SpringConstant * curString.normalized; 
+		playerAccel = difference * curString.normalized; 
 
 	}
 

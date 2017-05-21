@@ -1,0 +1,1132 @@
+fileFormatVersion: 2
+guid: 3bb9614f9caf7e44a97d6b35ce7cde92
+timeCreated: 1495350252
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ankle.L
+    100002: ankle.L_end
+    100004: ankle.R
+    100006: ankle.R_end
+    100008: arm_upper1.L
+    100010: arm_upper1.R
+    100012: Bone
+    100014: Bone.002
+    100016: Controller
+    100018: fingersA.L
+    100020: fingersA.L.002
+    100022: fingersA.R
+    100024: fingersA.R.001
+    100026: fingersB.L
+    100028: fingersB.L.002
+    100030: fingersB.R
+    100032: fingersB.R.001
+    100034: fingersC.L
+    100036: fingersC.L.002
+    100038: fingersC.L.002_end
+    100040: fingersC.L_end
+    100042: fingersC.R
+    100044: fingersC.R.001
+    100046: fingersC.R.001_end
+    100048: fingersC.R_end
+    100050: FirstPersonBodyRig
+    100052: FirstPersonTorso
+    100054: foot.L
+    100056: foot.R
+    100058: footController.L
+    100060: footController.R
+    100062: forearm1.L
+    100064: forearm1.L.001
+    100066: forearm1.L.001_end
+    100068: forearm1.R
+    100070: forearm1.R.001
+    100072: forearm1.R.001_end
+    100074: hand1.L
+    100076: hand1.R
+    100078: handIK1.L
+    100080: handIK1.L_end
+    100082: handIK1.R
+    100084: handIK1.R_end
+    100086: head
+    100088: Jaw
+    100090: Jaw_end
+    100092: leg
+    100094: leg.002
+    100096: leg.002_end
+    100098: leg1.L
+    100100: leg1.R
+    100102: leg2.L
+    100104: leg2.R
+    100106: leg3.L
+    100108: leg3.L_end
+    100110: leg3.R
+    100112: leg3.R_end
+    100114: leg_end
+    100116: neck
+    100118: pelvis
+    100120: //RootNode
+    100122: shoulder1.L
+    100124: shoulder1.R
+    100126: spine1
+    100128: spine2.R
+    100130: spine3
+    100132: thumbA.L
+    100134: thumbA.R
+    100136: thumbB.L
+    100138: thumbB.R
+    100140: thumbC.L
+    100142: thumbC.L_end
+    100144: thumbC.R
+    100146: thumbC.R_end
+    400000: ankle.L
+    400002: ankle.L_end
+    400004: ankle.R
+    400006: ankle.R_end
+    400008: arm_upper1.L
+    400010: arm_upper1.R
+    400012: Bone
+    400014: Bone.002
+    400016: Controller
+    400018: fingersA.L
+    400020: fingersA.L.002
+    400022: fingersA.R
+    400024: fingersA.R.001
+    400026: fingersB.L
+    400028: fingersB.L.002
+    400030: fingersB.R
+    400032: fingersB.R.001
+    400034: fingersC.L
+    400036: fingersC.L.002
+    400038: fingersC.L.002_end
+    400040: fingersC.L_end
+    400042: fingersC.R
+    400044: fingersC.R.001
+    400046: fingersC.R.001_end
+    400048: fingersC.R_end
+    400050: FirstPersonBodyRig
+    400052: FirstPersonTorso
+    400054: foot.L
+    400056: foot.R
+    400058: footController.L
+    400060: footController.R
+    400062: forearm1.L
+    400064: forearm1.L.001
+    400066: forearm1.L.001_end
+    400068: forearm1.R
+    400070: forearm1.R.001
+    400072: forearm1.R.001_end
+    400074: hand1.L
+    400076: hand1.R
+    400078: handIK1.L
+    400080: handIK1.L_end
+    400082: handIK1.R
+    400084: handIK1.R_end
+    400086: head
+    400088: Jaw
+    400090: Jaw_end
+    400092: leg
+    400094: leg.002
+    400096: leg.002_end
+    400098: leg1.L
+    400100: leg1.R
+    400102: leg2.L
+    400104: leg2.R
+    400106: leg3.L
+    400108: leg3.L_end
+    400110: leg3.R
+    400112: leg3.R_end
+    400114: leg_end
+    400116: neck
+    400118: pelvis
+    400120: //RootNode
+    400122: shoulder1.L
+    400124: shoulder1.R
+    400126: spine1
+    400128: spine2.R
+    400130: spine3
+    400132: thumbA.L
+    400134: thumbA.R
+    400136: thumbB.L
+    400138: thumbB.R
+    400140: thumbC.L
+    400142: thumbC.L_end
+    400144: thumbC.R
+    400146: thumbC.R_end
+    4300000: FirstPersonTorso
+    7400000: FirstPersonBodyRig|FirstPersonBodyRig.001|FirstPersonBodyRig|Idle|FirstPersonB.000
+    7400002: FirstPersonBodyRig|FirstPersonBodyRig.001|FirstPersonBodyRig|Idle|FirstPersonBodyR
+    7400004: FirstPersonBodyRig|FirstPersonBodyRig.001|FirstPersonBodyRig|rigAction.001|FirstPe
+    7400006: FirstPersonBodyRig|FirstPersonBodyRig.001|FirstPersonBodyRig|rigAction|FirstPerson
+    7400008: FirstPersonBodyRig|FirstPersonBodyRig.001|FirstPersonBodyRig|WalkForward|FirstPers
+    7400010: FirstPersonBodyRig|FirstPersonTorso.001|FirstPersonTorso|Idle|FirstPersonTorso.000
+    7400012: FirstPersonBodyRig|FirstPersonTorso.001|FirstPersonTorso|Idle|FirstPersonTorso.001
+    7400014: FirstPersonBodyRig|FirstPersonTorso.001|FirstPersonTorso|Idle|FirstPersonTorso.002
+    7400016: FirstPersonBodyRig|FirstPersonTorso.001|FirstPersonTorso|Idle|FirstPersonTorso.003
+    7400018: FirstPersonBodyRig|FirstPersonTorso.001|FirstPersonTorso|Idle|FirstPersonTorso.004
+    7400020: FirstPersonBodyRig|FirstPersonTorso.001|FirstPersonTorso|Idle|FirstPersonTorso|Idl
+    7400022: FirstPersonBodyRig|FirstPersonTorso.001|FirstPersonTorso|rigAction.001|FirstPerson
+    7400024: FirstPersonBodyRig|FirstPersonTorso.001|FirstPersonTorso|rigAction|FirstPersonTors
+    7400026: FirstPersonBodyRig|Hover
+    7400028: FirstPersonBodyRig|Idle
+    7400030: FirstPersonBodyRig|Land
+    7400032: FirstPersonBodyRig|rigAction
+    7400034: FirstPersonBodyRig|Skiing
+    7400036: FirstPersonBodyRig|StrafeRight
+    7400038: FirstPersonBodyRig|WalkForward
+    7400040: FirstPersonTorso|FirstPersonTorso.001|FirstPersonTorso|Idle|FirstPersonTorso.000
+    7400042: FirstPersonTorso|FirstPersonTorso.001|FirstPersonTorso|Idle|FirstPersonTorso.001
+    7400044: FirstPersonTorso|FirstPersonTorso.001|FirstPersonTorso|Idle|FirstPersonTorso.002
+    7400046: FirstPersonTorso|FirstPersonTorso.001|FirstPersonTorso|Idle|FirstPersonTorso.003
+    7400048: FirstPersonTorso|FirstPersonTorso.001|FirstPersonTorso|Idle|FirstPersonTorso.004
+    7400050: FirstPersonTorso|FirstPersonTorso.001|FirstPersonTorso|Idle|FirstPersonTorso|Idl
+    7400052: FirstPersonTorso|FirstPersonTorso.001|FirstPersonTorso|rigAction.001|FirstPerson
+    7400054: FirstPersonTorso|FirstPersonTorso.001|FirstPersonTorso|rigAction|FirstPersonTors
+    7400056: FirstPersonTorso|rigAction
+    7400058: FirstPersonTorso|Skiing
+    9500000: //RootNode
+    13700000: FirstPersonTorso
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: FirstPersonBodyRig|Hover
+      takeName: FirstPersonBodyRig|Hover
+      firstFrame: 0
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FirstPersonBodyRig
+        weight: 1
+      - path: FirstPersonBodyRig/Controller
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.L
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.L/foot.L
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.L/foot.L/ankle.L
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.L/foot.L/ankle.L/ankle.L_end
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.R
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.R/foot.R
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.R/foot.R/ankle.R
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.R/foot.R/ankle.R/ankle.R_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/handIK1.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/handIK1.L/handIK1.L_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/handIK1.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/handIK1.R/handIK1.R_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg/leg_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg.002
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg.002/leg.002_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.L/leg2.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.L/leg2.L/leg3.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.L/leg2.L/leg3.L/leg3.L_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.R/leg2.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.R/leg2.R/leg3.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.R/leg2.R/leg3.R/leg3.R_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L/fingersB.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L/fingersB.L/fingersC.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L/fingersB.L/fingersC.L/fingersC.L_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L.002
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L.002/fingersB.L.002
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L.002/fingersB.L.002/fingersC.L.002
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L.002/fingersB.L.002/fingersC.L.002/fingersC.L.002_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/thumbA.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/thumbA.L/thumbB.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/thumbA.L/thumbB.L/thumbC.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/thumbA.L/thumbB.L/thumbC.L/thumbC.L_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/forearm1.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/forearm1.L/forearm1.L.001
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/forearm1.L/forearm1.L.001/forearm1.L.001_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R/fingersB.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R/fingersB.R/fingersC.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R/fingersB.R/fingersC.R/fingersC.R_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R.001
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R.001/fingersB.R.001
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R.001/fingersB.R.001/fingersC.R.001
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R.001/fingersB.R.001/fingersC.R.001/fingersC.R.001_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/thumbA.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/thumbA.R/thumbB.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/thumbA.R/thumbB.R/thumbC.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/thumbA.R/thumbB.R/thumbC.R/thumbC.R_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/forearm1.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/forearm1.R/forearm1.R.001
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/forearm1.R/forearm1.R.001/forearm1.R.001_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/spine3
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/spine3/neck
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/spine3/neck/head
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/spine3/neck/head/Jaw
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/spine3/neck/head/Jaw/Jaw_end
+        weight: 1
+      - path: FirstPersonTorso
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: FirstPersonBodyRig|Idle
+      takeName: FirstPersonBodyRig|Idle
+      firstFrame: 0
+      lastFrame: 65
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FirstPersonBodyRig
+        weight: 1
+      - path: FirstPersonBodyRig/Controller
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.L
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.L/foot.L
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.L/foot.L/ankle.L
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.L/foot.L/ankle.L/ankle.L_end
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.R
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.R/foot.R
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.R/foot.R/ankle.R
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.R/foot.R/ankle.R/ankle.R_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/handIK1.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/handIK1.L/handIK1.L_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/handIK1.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/handIK1.R/handIK1.R_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg/leg_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg.002
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg.002/leg.002_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.L/leg2.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.L/leg2.L/leg3.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.L/leg2.L/leg3.L/leg3.L_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.R/leg2.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.R/leg2.R/leg3.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.R/leg2.R/leg3.R/leg3.R_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L/fingersB.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L/fingersB.L/fingersC.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L/fingersB.L/fingersC.L/fingersC.L_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L.002
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L.002/fingersB.L.002
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L.002/fingersB.L.002/fingersC.L.002
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L.002/fingersB.L.002/fingersC.L.002/fingersC.L.002_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/thumbA.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/thumbA.L/thumbB.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/thumbA.L/thumbB.L/thumbC.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/thumbA.L/thumbB.L/thumbC.L/thumbC.L_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/forearm1.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/forearm1.L/forearm1.L.001
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/forearm1.L/forearm1.L.001/forearm1.L.001_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R/fingersB.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R/fingersB.R/fingersC.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R/fingersB.R/fingersC.R/fingersC.R_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R.001
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R.001/fingersB.R.001
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R.001/fingersB.R.001/fingersC.R.001
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R.001/fingersB.R.001/fingersC.R.001/fingersC.R.001_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/thumbA.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/thumbA.R/thumbB.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/thumbA.R/thumbB.R/thumbC.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/thumbA.R/thumbB.R/thumbC.R/thumbC.R_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/forearm1.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/forearm1.R/forearm1.R.001
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/forearm1.R/forearm1.R.001/forearm1.R.001_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/spine3
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/spine3/neck
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/spine3/neck/head
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/spine3/neck/head/Jaw
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/spine3/neck/head/Jaw/Jaw_end
+        weight: 1
+      - path: FirstPersonTorso
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: FirstPersonBodyRig|Land
+      takeName: FirstPersonBodyRig|Land
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FirstPersonBodyRig
+        weight: 1
+      - path: FirstPersonBodyRig/Controller
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.L
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.L/foot.L
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.L/foot.L/ankle.L
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.L/foot.L/ankle.L/ankle.L_end
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.R
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.R/foot.R
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.R/foot.R/ankle.R
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.R/foot.R/ankle.R/ankle.R_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/handIK1.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/handIK1.L/handIK1.L_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/handIK1.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/handIK1.R/handIK1.R_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg/leg_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg.002
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg.002/leg.002_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.L/leg2.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.L/leg2.L/leg3.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.L/leg2.L/leg3.L/leg3.L_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.R/leg2.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.R/leg2.R/leg3.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.R/leg2.R/leg3.R/leg3.R_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L/fingersB.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L/fingersB.L/fingersC.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L/fingersB.L/fingersC.L/fingersC.L_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L.002
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L.002/fingersB.L.002
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L.002/fingersB.L.002/fingersC.L.002
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L.002/fingersB.L.002/fingersC.L.002/fingersC.L.002_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/thumbA.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/thumbA.L/thumbB.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/thumbA.L/thumbB.L/thumbC.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/thumbA.L/thumbB.L/thumbC.L/thumbC.L_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/forearm1.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/forearm1.L/forearm1.L.001
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/forearm1.L/forearm1.L.001/forearm1.L.001_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R/fingersB.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R/fingersB.R/fingersC.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R/fingersB.R/fingersC.R/fingersC.R_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R.001
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R.001/fingersB.R.001
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R.001/fingersB.R.001/fingersC.R.001
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R.001/fingersB.R.001/fingersC.R.001/fingersC.R.001_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/thumbA.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/thumbA.R/thumbB.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/thumbA.R/thumbB.R/thumbC.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/thumbA.R/thumbB.R/thumbC.R/thumbC.R_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/forearm1.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/forearm1.R/forearm1.R.001
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/forearm1.R/forearm1.R.001/forearm1.R.001_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/spine3
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/spine3/neck
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/spine3/neck/head
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/spine3/neck/head/Jaw
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/spine3/neck/head/Jaw/Jaw_end
+        weight: 1
+      - path: FirstPersonTorso
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: FirstPersonBodyRig|Skiing
+      takeName: FirstPersonBodyRig|Skiing
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FirstPersonBodyRig
+        weight: 1
+      - path: FirstPersonBodyRig/Controller
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.L
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.L/foot.L
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.L/foot.L/ankle.L
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.L/foot.L/ankle.L/ankle.L_end
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.R
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.R/foot.R
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.R/foot.R/ankle.R
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.R/foot.R/ankle.R/ankle.R_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/handIK1.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/handIK1.L/handIK1.L_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/handIK1.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/handIK1.R/handIK1.R_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg/leg_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg.002
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg.002/leg.002_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.L/leg2.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.L/leg2.L/leg3.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.L/leg2.L/leg3.L/leg3.L_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.R/leg2.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.R/leg2.R/leg3.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.R/leg2.R/leg3.R/leg3.R_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L/fingersB.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L/fingersB.L/fingersC.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L/fingersB.L/fingersC.L/fingersC.L_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L.002
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L.002/fingersB.L.002
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L.002/fingersB.L.002/fingersC.L.002
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L.002/fingersB.L.002/fingersC.L.002/fingersC.L.002_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/thumbA.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/thumbA.L/thumbB.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/thumbA.L/thumbB.L/thumbC.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/thumbA.L/thumbB.L/thumbC.L/thumbC.L_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/forearm1.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/forearm1.L/forearm1.L.001
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/forearm1.L/forearm1.L.001/forearm1.L.001_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R/fingersB.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R/fingersB.R/fingersC.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R/fingersB.R/fingersC.R/fingersC.R_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R.001
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R.001/fingersB.R.001
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R.001/fingersB.R.001/fingersC.R.001
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R.001/fingersB.R.001/fingersC.R.001/fingersC.R.001_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/thumbA.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/thumbA.R/thumbB.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/thumbA.R/thumbB.R/thumbC.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/thumbA.R/thumbB.R/thumbC.R/thumbC.R_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/forearm1.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/forearm1.R/forearm1.R.001
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/forearm1.R/forearm1.R.001/forearm1.R.001_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/spine3
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/spine3/neck
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/spine3/neck/head
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/spine3/neck/head/Jaw
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/spine3/neck/head/Jaw/Jaw_end
+        weight: 1
+      - path: FirstPersonTorso
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: FirstPersonBodyRig|WalkForward
+      takeName: FirstPersonBodyRig|WalkForward
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FirstPersonBodyRig
+        weight: 1
+      - path: FirstPersonBodyRig/Controller
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.L
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.L/foot.L
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.L/foot.L/ankle.L
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.L/foot.L/ankle.L/ankle.L_end
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.R
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.R/foot.R
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.R/foot.R/ankle.R
+        weight: 1
+      - path: FirstPersonBodyRig/Controller/footController.R/foot.R/ankle.R/ankle.R_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/handIK1.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/handIK1.L/handIK1.L_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/handIK1.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/handIK1.R/handIK1.R_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg/leg_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg.002
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg.002/leg.002_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.L/leg2.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.L/leg2.L/leg3.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.L/leg2.L/leg3.L/leg3.L_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.R/leg2.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.R/leg2.R/leg3.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/leg1.R/leg2.R/leg3.R/leg3.R_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L/fingersB.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L/fingersB.L/fingersC.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L/fingersB.L/fingersC.L/fingersC.L_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L.002
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L.002/fingersB.L.002
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L.002/fingersB.L.002/fingersC.L.002
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/fingersA.L.002/fingersB.L.002/fingersC.L.002/fingersC.L.002_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/thumbA.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/thumbA.L/thumbB.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/thumbA.L/thumbB.L/thumbC.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/Bone/hand1.L/thumbA.L/thumbB.L/thumbC.L/thumbC.L_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/forearm1.L
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/forearm1.L/forearm1.L.001
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.L/arm_upper1.L/forearm1.L/forearm1.L.001/forearm1.L.001_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R/fingersB.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R/fingersB.R/fingersC.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R/fingersB.R/fingersC.R/fingersC.R_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R.001
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R.001/fingersB.R.001
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R.001/fingersB.R.001/fingersC.R.001
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/fingersA.R.001/fingersB.R.001/fingersC.R.001/fingersC.R.001_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/thumbA.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/thumbA.R/thumbB.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/thumbA.R/thumbB.R/thumbC.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/Bone.002/hand1.R/thumbA.R/thumbB.R/thumbC.R/thumbC.R_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/forearm1.R
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/forearm1.R/forearm1.R.001
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/shoulder1.R/arm_upper1.R/forearm1.R/forearm1.R.001/forearm1.R.001_end
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/spine3
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/spine3/neck
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/spine3/neck/head
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/spine3/neck/head/Jaw
+        weight: 1
+      - path: FirstPersonBodyRig/pelvis/spine1/spine2.R/spine3/neck/head/Jaw/Jaw_end
+        weight: 1
+      - path: FirstPersonTorso
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

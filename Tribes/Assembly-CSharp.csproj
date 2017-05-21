@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\GrapplingHook.cs" />
      <Compile Include="Assets\Scripts\RBCharacterController.cs" />
      <Compile Include="Assets\Scripts\RopeAcceleration.cs" />
+     <Compile Include="Assets\Scripts\RotatePlayerMesh.cs" />
      <Compile Include="Assets\Scripts\WireEffect.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
